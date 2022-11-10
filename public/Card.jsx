@@ -5,7 +5,7 @@ export function Card (props) {
   return (
 
     <main className="card-color">
-      <li style={{ backgroundColor: `${props.colorData.hex}` }}>
+      <li>
         <div className="card-body">
           <h1>{props.colorData.name}</h1>
           <span>{props.colorData.hex}</span>

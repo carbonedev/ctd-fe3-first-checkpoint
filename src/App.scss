@@ -1,0 +1,76 @@
+.App{
+
+  
+    background-color: rgba(0, 119, 255, 0.35);
+    border-radius: 12px;
+
+}
+
+form{
+
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 12px;
+
+    button{
+
+        border-radius: 5px;
+        background-color: green;
+
+    }
+
+    input{
+
+        margin: 5px;
+        border-radius: 5px;
+        background-color: black;
+        border-color: green;
+
+    }
+
+}
+
+.form-error{
+    input{
+    
+    background-color: red;
+       
+    }
+
+
+
+    
+    
+    
+}
+
+.msg-error{
+
+    color:red;
+        
+}
+
+.color-list {
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    li {
+
+        width: 424px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;       
+        padding: 12px;
+        border-radius: 12px;
+        margin: 10px;
+     
+    }
+
+}
+
+.select-color{
+    font-size: 25px;
+}
+
