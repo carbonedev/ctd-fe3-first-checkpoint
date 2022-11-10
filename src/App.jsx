@@ -21,7 +21,7 @@ function App() {
       hex: colorHex
 
     }
-      if(colorName === ""){
+      if(colorName === ""  || !colorName.trim()){
         setFormularioErro(true)
       }else{  
         setFormularioErro(false)
